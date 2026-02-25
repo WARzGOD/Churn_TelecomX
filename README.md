@@ -126,9 +126,7 @@ Métricas utilizadas:
 
 4. F1-score
 
-Confusion Matrix
-
-(Opcional: incluir ROC-AUC caso tenha gerado.)
+5. Confusion Matrix
 
 💡 Business Impact
 

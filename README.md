@@ -10,29 +10,29 @@ Este projeto tem como objetivo identificar clientes com alta probabilidade de ev
 
 🎯 Objetivos
 
-Construir um modelo preditivo para classificar clientes com risco de churn
+- Construir um modelo preditivo para classificar clientes com risco de churn
 
-Identificar os principais drivers de evasão
+- Identificar os principais drivers de evasão
 
-Garantir pipeline robusto e livre de data leakage
+- Garantir pipeline robusto e livre de data leakage
 
-Traduzir resultados técnicos em insights estratégicos
+- Traduzir resultados técnicos em insights estratégicos
 
 🛠️ Tech Stack
 
-Python
+- Python
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Scikit-Learn
+- Scikit-Learn
 
-Pipeline & ColumnTransformer
+- Pipeline & ColumnTransformer
 
-Logistic Regression
+- Logistic Regression
 
-Random Forest
+- Random Forest
 
 📂 Project Structure
 
@@ -46,25 +46,25 @@ Random Forest
 🔍 Methodology
 1️⃣ Data Preparation
 
-Conversão de TotalCharges para numérico
+- Conversão de TotalCharges para numérico
 
-Tratamento de valores ausentes via SimpleImputer
+- Tratamento de valores ausentes via SimpleImputer
 
-Separação treino/teste com stratify
+- Separação treino/teste com stratify
 
-Aplicação de StandardScaler para variáveis numéricas
+- Aplicação de StandardScaler para variáveis numéricas
 
-One-Hot Encoding para variáveis categóricas
+- One-Hot Encoding para variáveis categóricas
 
 2️⃣ Pipeline Construction
 
 Todo o pré-processamento foi encapsulado em um Pipeline, garantindo:
 
-Reprodutibilidade
+- Reprodutibilidade
 
-Ausência de vazamento de dados
+- Ausência de vazamento de dados
 
-Facilidade de deploy futuro
+- Facilidade de deploy futuro
 
 3️⃣ Model Training
 
@@ -86,7 +86,7 @@ Random Forest
 - internet_InternetService_No	0.032
 - account_PaperlessBilling	0.029
 - internet_TechSupport	0.028
-- 
+
 📈 Key Insights
 🔹 1. Tenure é o maior preditor de churn
 
@@ -118,13 +118,13 @@ O modelo foi avaliado em conjunto de teste não balanceado para simular cenário
 
 Métricas utilizadas:
 
-Accuracy
+1. Accuracy
 
-Precision
+2. Precision
 
-Recall
+3. Recall
 
-F1-score
+4. F1-score
 
 Confusion Matrix
 
@@ -134,30 +134,32 @@ Confusion Matrix
 
 Com a implementação desse modelo, a empresa pode:
 
-Reduzir churn com ações direcionadas
+1. Reduzir churn com ações direcionadas
 
-Diminuir CAC (Custo de Aquisição de Clientes)
+2. Diminuir CAC (Custo de Aquisição de Clientes)
 
-Melhorar previsibilidade de receita
+3. Melhorar previsibilidade de receita
 
-Priorizar clientes de alto risco
+4. Priorizar clientes de alto risco
 
 ⚡ Future Improvements
 
-Cross-validation
+1. Cross-validation
 
-Hyperparameter tuning (GridSearch / RandomSearch)
+2. Hyperparameter tuning (GridSearch / RandomSearch)
 
-XGBoost / LightGBM
+3. XGBoost / LightGBM
 
-SHAP values para interpretabilidade avançada
+4. SHAP values para interpretabilidade avançada
 
-Deploy via API (FastAPI ou Flask)
+5. Deploy via API (FastAPI ou Flask)
 
 👨‍💻 About Me
 
 Matheus Cunha Pereira
+
 Graduado em Análise e Desenvolvimento de Sistemas
+
 Foco em Data Science, Machine Learning e Engenharia de Dados
 
 🔗 Em constante evolução na área de Tecnologia e Dados
